@@ -1,9 +1,13 @@
-#Please-open.it nginx proxy oauth image
+# Please-open.it nginx proxy oauth image
+
+## Configuration
+
+Check nginx.conf file
 
 ## build
 
 ```
-docker build -t registry.please-open.it/misc/nginx-oauth:latest .
+docker build .
 ```
 
 base : https://github.com/zmartzone/lua-resty-openidc
